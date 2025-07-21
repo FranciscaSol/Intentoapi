@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: api-datos-humedal
+    runtime: python
+    buildCommand: ""
+    startCommand: "python app.py"
